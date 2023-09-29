@@ -1,0 +1,82 @@
+@font-face {
+    font-family: myFont;
+    src: url(bb.ttf);
+}
+@font-face {
+    font-family: myy;
+    src:url(ee.otf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FF9B9B;
+}
+#sq{
+    padding: 15px 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.label{
+    font-size: 2vw;
+    font-family:myy;
+    color: #FFFEC4;
+}
+#az{
+    padding: 15px 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#bz{
+    padding: 15px 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: myFont;
+    font-size: 3vw;
+    color: #FFFEC4;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    
+    font-family: myFont;
+    font-size: 2vw;
+    color: #FFFEC4;
+    margin-bottom: 10px;
+    padding: 10px ;
+
+}
+.cd{
+    border-radius: 12px;
+    border: solid 3px black;
+    transition: all 1s ease-in;
+}
+.cd:hover{
+    transform: translateX(50px);
+    width: 300px;
+}
+.ab{
+    border-radius: 12px;
+    border: solid 3px black;
+    transition: all 1s ease-in;
+}
+.ab:hover{
+    transform: translateY(50px);
+    width: 400px;
+
+}
+
