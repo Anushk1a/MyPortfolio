@@ -14,7 +14,7 @@
 html,body{
     width: 100%;
     height:100%;
-    background-color: #b28e6c;
+    background-color: #868F74;
 }
 #nav li{
     float: right;
@@ -68,7 +68,7 @@ h2{
     font-family: myFont;
     font-size: 3vw;
     margin-top: 10px;
-    color: white;
+    color: black;
 }
 h3{
     margin-bottom: 20px;
